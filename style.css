@@ -383,6 +383,78 @@ a {
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
+ /* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Menú en dispositivos pequeños */
+@media (max-width: 767px) {
+    .cabecera {
+        padding: 1rem;
+    }
+
+    .cabecera__logo {
+        max-width: 60px; /* Reducir tamaño del logo */
+    }
+
+    .cabecera__titulo {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .navegacion__lista {
+        display: none; /* Mostrar solo en pantallas grandes, o agregar un menú hamburguesa */
+    }
+
+    .navegacion__elemento a {
+        font-size: 0.9rem;
+    }
+
+    .presentacion {
+        flex-direction: column; /* Cambiar de fila a columna en pantallas pequeñas */
+        padding: 1rem;
+    }
+
+    .presentacion__foto {
+        width: 200px; /* Reducir tamaño de la imagen */
+        margin-bottom: 1rem; /* Añadir espacio debajo */
+    }
+
+    .sobre-mi__titulo,
+    .habilidades__titulo,
+    .formacion__titulo,
+    .contacto__titulo {
+        font-size: 1.5rem;
+    }
+
+    .formacion__lista,
+    .habilidades__lista {
+        flex-direction: column; /* Colocar elementos en columna para pantallas pequeñas */
+    }
+
+    .proyectos__contenedor {
+        flex-direction: column; /* Cambiar disposición a columna */
+        gap: 1rem;
+    }
+
+    .proyectos__imagen {
+        width: 100%; /* Imagen de tamaño completo en dispositivos pequeños */
+        height: auto;
+    }
+
+    .contacto__contenido {
+        flex-direction: column; /* Acomodar formulario e imagen en columna */
+        gap: 1.5rem;
+    }
+
+    .contacto__imagen {
+        max-width: 300px; /* Ajustar imagen de contacto */
+        margin-top: 1rem;
+    }
+
+    .contacto__formulario {
+        width: 100%;
+    }
+}
+
 /* Dispositivos de 768px a 1023px (tabletas) */
 @media (min-width: 768px) and (max-width: 1023px) {
     .cabecera {
@@ -433,4 +505,3 @@ a {
         width: 100%;
     }
 }
-
