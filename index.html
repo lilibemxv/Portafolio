@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+        <h1 class="cabecera__titulo">Alura Latam</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <!-- <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li> -->
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <img class="presentacion__foto" src="assets/fotoperfil.jpg" alt="Foto de perfil">
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, mi nombre es Liliana Becerra</h2>
+            <p class="presentacion__subtitulo">Soy Ingeniería biomédica con gusto por la programación, actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+            <ul class="redes">
+                <li class="redes__img"><a href="https://github.com/lilibemxv">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="www.linkedin.com/in/liliana-becerra-martinez-ib">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.instagram.com/lilibemxv/">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Estudiante de Ingeniería Biomédica con habilidades autodidactas y experiencia en investigación centrada en bioimpedancia, biomecánica y LSM. Además, poseo habilidades en programación con Python, MATLAB, C++, HTML, CSS y JS para el desarrollo de software médico.</p>
+        <p class="sobre-mi__texto">Disfruto continuamente adquiriendo nuevas habilidades y tengo un entusiasmo genuino por interactuar con personas de diversos ámbitos profesionales. Estoy comprometida con el avance en el campo de la ingeniería biomédica, donde mi pasión por la tecnología y la salud converge.</p>
+        <!-- Firma opcional 
+        <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma"> -->
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/html5.png" alt="HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/python.png" alt="Python">
+                <p class="habilidades__nombre">Python</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/matlab.png" alt="MATLAB">
+                <p class="habilidades__nombre">MATLAB</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/c++.png" alt="c++">
+                <p class="habilidades__nombre">C++</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones 
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
+                <p class="aficiones__nombre">Patinaje</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
+                <p class="aficiones__nombre">Tocar bajo</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
+                <p class="aficiones__nombre">Oír música</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
+                <p class="aficiones__nombre">Ver series</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
+                <p class="aficiones__nombre">Cocinar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
+                <p class="aficiones__nombre">Tomar fotos</p>
+            </li>
+        </ul>
+    </section>
+    -->
+
+     <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+        <div class="proyectos__contenedor">
+            <div class="proyectos__contenido">
+            <h3 class="proyectos__nombre">Programa Alura- Oracle One</h3>
+            <p class="proyectos__lugar">Remoto</p>
+            <p class="proyectos__fecha">Junio 2024 a Presente</p>
+            <p class="proyectos__descripcion">Formación intensiva en desarrollo web y tecnologías front-end. Aprendizaje de HTML, CSS, y JavaScript. Aplicación de proyectos prácticos para construir habilidades técnicas.</p>
+            </div>
+            <img class="proyectos__imagen" src="assets/alura.png" alt="ONE">
+        </div>
+        <div class="proyectos__contenedor">
+            <div class="proyectos__contenido">
+            <h3 class="proyectos__nombre">EMBS Presidenta del Capitulo estudiantil</h3>
+            <p class="proyectos__lugar">Xalapa, Ver.</p>
+            <p class="proyectos__fecha">Agosto 2024 - Actual</p>
+            <p class="proyectos__descripcion">Organización de eventos, como la Semana de la Ingeniería Biomédica y el Café Biomédico. Coordinación de equipos para lograr objetivos comunes. Gestión de recursos y logística para actividades estudiantiles.</p>
+            </div>
+            <img class="proyectos__imagen" src="assets/embs.png" alt="EMBS Logo"> 
+        </div>
+        <div class="proyectos__contenedor">
+            <div class="proyectos__contenido">
+            <h3 class="proyectos__nombre">Instructora en TECNOLOchicas</h3>
+            <p class="proyectos__lugar">Remoto</p>
+            <p class="proyectos__fecha">Abril 2024 a Octubre 2024</p>
+            <p class="proyectos__descripcion">Cursos sobre Diseño de páginas web con HTML y CSS, aplicaciones moviles a niñas de 13 a 17 años.</p>
+            </div>
+            <img class="proyectos__imagen" src="assets/tecnolochicas.jpeg" alt="TECNOLOchicas">
+        </div>
+        <div class="proyectos__contenedor">
+            <div class="proyectos__contenido">
+            <h3 class="proyectos__nombre">Estudiante de Verano</h3>
+            <p class="proyectos__lugar">León, Guanajuato</p>
+            <p class="proyectos__fecha">Junio 2024 a Agosto 2024</p>
+            <p class="proyectos__descripcion">Durante mi estancia de investigación, trabajé con técnicas avanzadas como interferometría, Shadow Moiré, PCA (Análisis de Componentes Principales), ICA (Análisis de Componentes Independientes), y SVD (Descomposición en Valores Singulares). Implementé métodos ópticos para la detección y filtrado de señales biomédicas, en especial enfocadas en el análisis de la frecuencia cardíaca remota. Un logro destacado fue el aislamiento del segundo armónico y el análisis espectral mediante la Transformada de Fourier. Para el procesamiento y análisis de los datos, utilicé MATLAB y Python, optimizando la programación para lograr resultados precisos en la detección de señales biomédicas..</p>
+            </div>
+            <img class="proyectos__imagen" src="assets/cio.png" alt="Centro de Investigaciones en Óptica">
+        </div>
+ 
+    </section>
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/uvlogo.png" alt="biomédica-Universidad">
+                <div>
+                    <h3 class="formacion__nombre">Ingeniería biomédica-Universidad Veracruzana</h3>
+                    <p class="formacion__detalle">2021-2025</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div>
+                    <h3 class="formacion__nombre">Formación en Frontend- Alura Oracle ONE</h3>
+                    <p class="formacion__detalle">2019 - Alura</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p class="contacto__descripcion">Si tienes alguna pregunta o deseas ponerte en contacto conmigo, completa el formulario y te responderé lo antes posible.</p>
+        <div class="contacto__contenido">
+            <form class="contacto__formulario">
+                <input class="contacto__campo" type="text" placeholder="Tu nombre" required>
+                <input class="contacto__campo" type="email" placeholder="Tu correo electrónico" required>
+                <textarea class="contacto__campo contacto__campo--textarea" placeholder="Tu mensaje" required></textarea>
+                <button class="contacto__boton" type="submit">Enviar mensaje</button>
+            </form>
+            <img class="contacto__imagen" src="assets/contacto.jpg" alt="Conéctate conmigo">
+        </div>
+    </section>
+    
+
+</body>
+    <script src="script.js"></script>
+</html>
