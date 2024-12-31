@@ -54,7 +54,7 @@ a {
 /* ------------------------------ Sección Presentación ------------------------------*/
 .presentacion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 2rem;
     background-color: var(--color-de-fondo-menu);
@@ -408,10 +408,6 @@ a {
         font-size: 0.9rem;
     }
 
-    .presentacion {
-        flex-direction: column; /* Cambiar de fila a columna en pantallas pequeñas */
-        padding: 1rem;
-    }
 
     .presentacion__foto {
         width: 200px; /* Reducir tamaño de la imagen */
@@ -478,8 +474,9 @@ a {
     }
 
     .presentacion {
-        flex-direction: column; /* Acomodar los elementos en columna en pantallas más pequeñas */
-        padding: 2rem;
+        flex-direction: row; /* Para dispositivos grandes (como tabletas y computadoras) */
+        justify-content: space-between; /* Espaciado entre la foto y el texto */
+  
     }
 
     .presentacion__foto {
