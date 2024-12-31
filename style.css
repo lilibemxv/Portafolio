@@ -383,16 +383,17 @@ a {
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
-/* Tablets y pantallas más grandes */
-@media (min-width: 768px) {
+/* Dispositivos de 768px a 1023px (tabletas) */
+@media (min-width: 768px) and (max-width: 1023px) {
     .cabecera {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1.5rem;
     }
 
     .cabecera__logo {
-        max-width: 100px;
+        max-width: 80px;
     }
 
     .cabecera__titulo {
@@ -401,24 +402,35 @@ a {
 
     .navegacion__lista {
         display: flex;
-        flex-direction: row;
         gap: 1rem;
-        margin-top: 0;
     }
 
-    .navegacion__elemento a {
-        font-size: 1rem;
+    .presentacion {
+        flex-direction: column; /* Acomodar los elementos en columna en pantallas más pequeñas */
+        padding: 2rem;
+    }
+
+    .presentacion__foto {
+        width: 250px;
+    }
+
+    .proyectos__contenedor {
+        flex-direction: column; /* Cambiar los proyectos a columna */
+        gap: 1rem;
+    }
+
+    .contacto__contenido {
+        flex-direction: column; /* Acomodar los elementos en columna */
+        gap: 2rem;
+    }
+
+    .contacto__imagen {
+        max-width: 350px;
+        margin-top: 1rem;
+    }
+
+    .contacto__formulario {
+        width: 100%;
     }
 }
 
-/* Pantallas grandes */
-@media (min-width: 1024px) {
-    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
-    .cabecera__titulo {
-        font-size: 1.8rem;
-    }
-
-    .navegacion__elemento a {
-        font-size: 1.1rem;
-    }
-}
